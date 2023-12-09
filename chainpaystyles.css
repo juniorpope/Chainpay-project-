@@ -1,0 +1,137 @@
+* {
+    padding: none;
+    margin: none;
+}
+BODY {
+    background-color:darkgreen;
+    background-position: center;
+}
+:root {
+    color: white;
+}
+.dot {
+    color: darkgreen;
+}
+.back{
+    background-color: black;
+    margin: 6rem;
+    max-height: 55rem;
+    max-width: 70rem;
+}
+
+
+.fontsize {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bold;
+    font-size: 30px;
+}
+.font5 {
+    opacity: .5;
+    font-size: small;
+    font-weight: 500;
+}
+
+
+
+
+.flex {
+    display: flex;
+    place-content: 1rem 1rem 1rem;
+    padding: 4rem;
+    gap: 20rem;
+}
+.flex01 {
+    display: flex;
+    
+}
+
+.flex02 {
+    display: flex;
+    gap: 15px;
+  margin-inline: -15rem;
+  opacity: .5;
+  font-size: small;
+  font-weight: 500;
+  padding: .3rem;
+}
+.flex03 {
+    display: flex;
+    padding: 1rem;
+    gap: 10px;
+    margin-inline: 20rem;
+}
+
+.logo {
+    display: flex;
+    height: 20px;
+    width: 30px;
+    padding-inline: .2rem;
+}
+.text{
+    display: flex;
+}
+
+
+
+.icon {
+    height: 20px;
+    width: 30px;
+    border-radius: 1rem;
+    
+}
+.iconborder {
+    border-radius: 30rem;
+    background-color: rgb(0, 0, 0);
+    border: transparent;
+    cursor: pointer;
+    border: 1px solid darkgreen;
+    width: 60px;
+}
+
+
+.btn1 {
+    height: 20px;
+    width: 20px;
+    color: green;
+}
+
+.btn {
+    border-radius: 3rem;
+    background-color:black;
+    color: darkgreen;
+    border: .01px solid darkgreen;
+    cursor: pointer;
+}
+.btn1 {
+    background-color: darkgreen;
+}
+
+main {
+    display: flex;
+    justify-content: space-evenly;
+    padding: 3rem;
+}
+
+section{
+    display: flex;
+    column-gap: 5rem;
+    padding-bottom: 30rem;
+    place-content: end center;
+}
+.coin {
+    display: flex;
+    padding: .2rem;
+    
+}
+
+.coin1 {
+    border-radius: 3rem;
+    height: 25px;
+}
+.coin2 {
+    font-size: xx-large;
+    color: rgba(2, 15, 27, 0.733);
+}
+.coin3 {
+    color: rgba(2, 29, 53, 0.733);
+}
